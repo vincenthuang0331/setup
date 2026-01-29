@@ -89,8 +89,15 @@ tests:
 
 **執行命令：**
 - `describe` - 生成 MR 描述和總結
+
+<img width="935" height="761" alt="螢幕擷取畫面 2026-01-29 153624" src="https://github.com/user-attachments/assets/71bc7a57-25fb-4f24-a08e-fc80b62c6d06" />
+
 - `review` - 執行代碼審查，找出潛在問題
+<img width="857" height="743" alt="螢幕擷取畫面 2026-01-29 154013" src="https://github.com/user-attachments/assets/a18692f8-ea13-483a-8472-91aed7cb12dc" />
+
 - `improve` - 提供代碼改進建議
+
+<img width="867" height="663" alt="螢幕擷取畫面 2026-01-29 154032" src="https://github.com/user-attachments/assets/6d532d34-ec67-4b8f-aa26-9d41cc58ce04" />
 
 **觸發條件：**
 - 僅在 Merge Request 事件時執行（`CI_PIPELINE_SOURCE == "merge_request_event"`）
@@ -330,4 +337,5 @@ Step 3: Improve
 | `describe` | 生成 MR 描述 |
 | `review` | 代碼審查 |
 | `improve` | 代碼改進建議 |
+
 
