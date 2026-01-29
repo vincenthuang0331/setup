@@ -97,7 +97,7 @@ tests:
 
 ### .pr_agent.toml
 
-詳見 [PR Agent 配置選項](https://github.com/qodo-ai/pr-agent/blob/main/pr_agent/settings/configuration.toml)
+詳見 [PR Agent 配置選項以及預設](https://github.com/qodo-ai/pr-agent/blob/main/pr_agent/settings/configuration.toml)
 
 ```toml
 [config]
@@ -330,3 +330,4 @@ Step 3: Improve
 | `describe` | 生成 MR 描述 |
 | `review` | 代碼審查 |
 | `improve` | 代碼改進建議 |
+
