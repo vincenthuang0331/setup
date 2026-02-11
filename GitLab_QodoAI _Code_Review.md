@@ -1,4 +1,4 @@
-# GitLab AI Code Review 設定
+# GitLab QodoAI Code Review 設定
 
 本文檔說明如何在 GitLab 中整合 QodoAI 的 PR Agent 進行自動化 Code Review。
 
@@ -337,5 +337,6 @@ Step 3: Improve
 | `describe` | 生成 MR 描述 |
 | `review` | 代碼審查 |
 | `improve` | 代碼改進建議 |
+
 
 
